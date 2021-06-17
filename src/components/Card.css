@@ -1,0 +1,28 @@
+.card {
+    display: grid;
+    place-items: center;
+    padding: 1em ;
+    /* border-radius: 10px;
+    border: 1px solid #bbb; */
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.card-total-number {
+    font-size: 1.6em;
+    font-weight: 600;
+    padding-top: .4em;
+    padding-bottom: .2em;
+    color: #fb9300;
+}
+
+@media (max-width: 425px) {
+    .card-title,
+    .card-total-number {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,40 @@
+.table {
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: scroll;
+    background: rgb(243, 243, 243);
+}
+
+.table h3 {
+    padding-bottom: 1em;
+}
+
+.table-row {
+    width: 100%;
+    min-width: 640px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-top: 0.8em;
+    border-bottom: 1px solid #aaa;
+    text-align: end;
+}
+
+.table-head {
+    font-weight: 600;
+    border-bottom: 3px solid #aaa;
+}
+
+.table-country {
+    text-align: start;
+}
+
+.table-new {
+    color: #fb9300;
+}
+
+.table-death {
+    color: #bb371a;
+}
+
