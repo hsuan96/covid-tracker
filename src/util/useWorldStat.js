@@ -9,7 +9,7 @@ export default function useWorldStat() {
 		fetch('https://covid-19-tracking.p.rapidapi.com/v1', {
 			method: 'GET',
 			headers: {
-				'x-rapidapi-key': 'b9ab06058dmsh3a51146c8c9dfe2p12f91cjsn84d03b4363a8',
+				'x-rapidapi-key': '***',
 				'x-rapidapi-host': 'covid-19-tracking.p.rapidapi.com'
 			}
 		})
